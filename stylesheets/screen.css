@@ -3190,48 +3190,49 @@ body {
 }
 /* line 68, ../sass/screen.scss */
 .area .content {
-  padding: 0px 30px;
+  padding: 0px 35px;
 }
 
 /* line 73, ../sass/screen.scss */
 .intro {
   text-align: center;
+  padding-bottom: 2em;
 }
-/* line 75, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .intro h1 {
   font-size: 2.5em;
   margin: 0 0 0.5em;
 }
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .intro .tagline {
   font-size: 1.5em;
   line-height: 0.8em;
   font-weight: 300;
 }
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .intro .description {
   margin: 1.2em 0 1.6em;
   /*		font-size: 1.5em;*/
   line-height: 1.2em;
   font-weight: 300;
 }
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .intro strong {
   font-weight: 800;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .buttons .content {
   text-align: center;
 }
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .buttons .github span {
   background: url("../images/octocat.png") top left no-repeat;
   padding-left: 25px;
   position: relative;
   left: -2px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .buttons .twitter span {
   background: url("../images/twitter.png") top left no-repeat;
   background-position: 0px 50%;
@@ -3240,59 +3241,59 @@ body {
   left: -2px;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 .pull-right {
   padding: 0 0 2% 5%;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .rounded {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .footer {
   padding: 1em 5%;
 }
-/* line 122, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 .footer p {
   text-align: center;
   font-size: 0.8em;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .center {
   text-align: center;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .examples li {
   margin-bottom: 5px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .examples li a {
   color: #fff;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 141, ../sass/screen.scss */
+  /* line 142, ../sass/screen.scss */
   .github {
     margin-bottom: 0.5em;
   }
 }
 @media screen and (min-width: 601px) {
-  /* line 148, ../sass/screen.scss */
+  /* line 149, ../sass/screen.scss */
   .buttons .content {
     padding: 0 0.5em;
   }
-  /* line 151, ../sass/screen.scss */
+  /* line 152, ../sass/screen.scss */
   .buttons .github {
     float: right;
   }
-  /* line 154, ../sass/screen.scss */
+  /* line 155, ../sass/screen.scss */
   .buttons .twitter {
     float: left;
   }
@@ -3300,7 +3301,7 @@ body {
 @media only screen 
 and (min-width : 538px)
 and (max-width : 767px) {
-  /* line 163, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   .examples .content {
     background: url(../images/examples-arrow-m.jpg) bottom right no-repeat;
     background-position: 80% 100%;
@@ -3308,7 +3309,7 @@ and (max-width : 767px) {
 }
 @media only screen 
 and (min-width : 768px) {
-  /* line 170, ../sass/screen.scss */
+  /* line 171, ../sass/screen.scss */
   .examples .content {
     background: url(../images/examples-arrow-lg.jpg) bottom right no-repeat;
     background-position: 80% 100%;
@@ -3324,27 +3325,32 @@ and (max-device-width : 480px) {
 @media only screen 
 and (min-width : 321px) {
   /* Styles */
-  /* line 187, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   .intro h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
 
-  /* line 188, ../sass/screen.scss */
+  /* line 189, ../sass/screen.scss */
   .intro .tagline {
     font-size: 2em;
   }
 
-  /* line 189, ../sass/screen.scss */
+  /* line 190, ../sass/screen.scss */
+  .intro .description {
+    font-size: 1.2em;
+  }
+
+  /* line 191, ../sass/screen.scss */
   h2 {
     font-size: 2em;
   }
 
-  /* line 190, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   h3 {
     font-size: 1.5em;
   }
 
-  /* line 191, ../sass/screen.scss */
+  /* line 193, ../sass/screen.scss */
   .examples li a {
     font-size: 1.2em;
   }
@@ -3359,17 +3365,17 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
   /* Styles */
-  /* line 205, ../sass/screen.scss */
+  /* line 207, ../sass/screen.scss */
   .intro .description {
     font-size: 1.5em;
   }
 
-  /* line 206, ../sass/screen.scss */
+  /* line 208, ../sass/screen.scss */
   .about img {
     margin-top: 10%;
   }
 
-  /* line 207, ../sass/screen.scss */
+  /* line 209, ../sass/screen.scss */
   .examples li a {
     font-size: 1.5em;
   }
@@ -3380,13 +3386,13 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
   /* Styles */
-  /* line 217, ../sass/screen.scss */
+  /* line 219, ../sass/screen.scss */
   .intro .description {
     width: 70%;
     margin: 1.2em auto 1.6em;
   }
 
-  /* line 218, ../sass/screen.scss */
+  /* line 220, ../sass/screen.scss */
   .intro h1 {
     margin-top: 0.5em;
   }
@@ -3402,55 +3408,56 @@ and (orientation : portrait) {
 @media only screen 
 and (min-width : 1024px) {
   /* Styles */
-  /* line 233, ../sass/screen.scss */
+  /* line 235, ../sass/screen.scss */
   .intro .description {
     width: 70%;
     margin: 1.2em auto 1.6em;
   }
 
-  /* line 234, ../sass/screen.scss */
+  /* line 236, ../sass/screen.scss */
   .intro h1 {
     margin-top: 0.5em;
     font-size: 5.4em;
   }
 
-  /* line 235, ../sass/screen.scss */
+  /* line 237, ../sass/screen.scss */
   .intro .description {
     font-size: 1.5em;
   }
 
-  /* line 236, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   .about img {
     margin-top: 10%;
   }
 
-  /* line 237, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   .examples li a {
     font-size: 1.5em;
   }
 
-  /* line 238, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   body {
     padding-top: 40px;
   }
 
-  /* line 241, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .footer {
     width: 820px;
     margin: 0 auto;
   }
 
-  /* line 245, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   .area {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
 
-  /* line 248, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   .intro {
     background: url("../images/intro-arrows-lg.jpg") center top no-repeat;
     background-position: 50% 68%;
+    padding-bottom: 3em;
   }
 }
 /* Large screens ----------- */
