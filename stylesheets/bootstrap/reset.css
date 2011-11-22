@@ -1,0 +1,161 @@
+/* Reset.scss
+ * Props to Eric Meyer (meyerweb.com) for his CSS reset file. We're using an adapted version here	that cuts out some of the reset HTML elements we will never need here (i.e., dfn, samp, etc).
+ * ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* line 9, ../../sass/bootstrap/reset.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../sass/bootstrap/reset.scss */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+
+/* line 11, ../../sass/bootstrap/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 12, ../../sass/bootstrap/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 13, ../../sass/bootstrap/reset.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 23, ../../sass/bootstrap/reset.scss */
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 30, ../../sass/bootstrap/reset.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 35, ../../sass/bootstrap/reset.scss */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* line 51, ../../sass/bootstrap/reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+/* line 60, ../../sass/bootstrap/reset.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 69, ../../sass/bootstrap/reset.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 77, ../../sass/bootstrap/reset.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 83, ../../sass/bootstrap/reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 86, ../../sass/bootstrap/reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 93, ../../sass/bootstrap/reset.scss */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 106, ../../sass/bootstrap/reset.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+/* line 113, ../../sass/bootstrap/reset.scss */
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* line 118, ../../sass/bootstrap/reset.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 125, ../../sass/bootstrap/reset.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 129, ../../sass/bootstrap/reset.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 135, ../../sass/bootstrap/reset.scss */
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 138, ../../sass/bootstrap/reset.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}

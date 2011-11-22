@@ -1,0 +1,266 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "bootstrap/bootstrap";
+
+html, body {
+	font-size: 16px;
+	line-height: 1.5em;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #00163E;
+	p {
+		line-height: 1.4em;
+	}
+}
+
+h1, h2, h3 {
+	font-weight: 800;
+	color: #00163E;
+	margin: 1em 0;
+	line-height: 1em;
+}
+
+h1 {
+/*	font-size: 3em;*/
+}
+
+h2 {
+/*	font-size: 2em;*/
+}
+
+h3 {
+/*	font-size: 1.5em;*/
+}
+
+body {
+	background: url(../images/roughcloth.png) top left repeat;
+}
+
+.section {
+	padding: 1.5em 0 1.5em;
+}
+.area {
+	.gettingstarted, .more {
+		padding-bottom: 0;
+	}
+	.template, .diana {
+		padding-top: 0;
+	}
+}
+
+.blue-section {
+	background: #00163E url(../images/triangle-top.jpg) top left repeat-x;
+	color: #fff;
+	padding: 1.5em 0 2em;
+	h1, h2, h3, h4 {
+		color: #fff;
+	}
+}
+.triangles-above {
+	background: url('../images/triangle-bottom.jpg') top left repeat-x;
+}
+
+.area {
+	background: #fff;
+	@include box-shadow(0px 1px 4px #333);
+	.content {
+		padding: 0px 30px;
+	}
+}
+
+.intro {
+	text-align: center;
+	h1 {
+		font-size: 2.5em;
+		margin: 0 0 0.5em;
+	}
+	.tagline {
+		font-size: 1.5em;
+		line-height: 0.8em;
+		font-weight: 300;
+	}
+	.description {
+		margin: 1.2em 0 1.6em;
+/*		font-size: 1.5em;*/
+		line-height: 1.2em;
+		font-weight: 300;
+	}
+	strong {
+		font-weight: 800;
+	}
+}
+.buttons {
+	.content {
+		text-align: center;
+	}
+	.github span {
+		background: url('../images/octocat.png') top left no-repeat;
+		padding-left: 25px;
+		position: relative;
+		left: -2px;
+	}
+	.twitter span {
+		background: url('../images/twitter.png') top left no-repeat;
+		background-position: 0px 50%;
+		padding-left: 28px;
+		position: relative;
+		left: -2px;
+	}
+}
+
+.pull-right {
+	padding: 0 0 2% 5%;
+}
+.rounded {
+	@include border-radius(5px);
+}
+
+.footer {
+	padding: 1em 5%;
+	p {
+		text-align: center;
+		font-size: 0.8em;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+.examples li {
+	margin-bottom: 5px;
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.github {
+		margin-bottom: 0.5em;
+	}
+}
+
+@media screen and (min-width: 601px) {
+	.buttons {
+		.content {
+			padding: 0 0.5em;
+		}
+		.github {
+			float: right;
+		}
+		.twitter {
+			float: left;
+		}
+	}
+}
+
+@media only screen 
+and (min-width : 538px)
+and (max-width : 767px) {
+	.examples .content {
+		background: url(../images/examples-arrow-m.jpg) bottom right no-repeat;
+		background-position: 80% 100%;
+	}
+}
+@media only screen 
+and (min-width : 768px) {
+	.examples .content {
+		background: url(../images/examples-arrow-lg.jpg) bottom right no-repeat;
+		background-position: 80% 100%;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+	.intro h1 { font-size: 4em;}
+	.intro .tagline { font-size: 2em;}
+	h2 { font-size:2em;}
+	h3 { font-size:1.5em;}
+	.examples li a { font-size: 1.2em;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+	.intro .description {font-size: 1.5em;}
+	.about img {margin-top: 10%;}
+	.examples li a { font-size: 1.5em;}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+	.intro .description { width: 70%; margin: 1.2em auto 1.6em;}
+	.intro h1 {margin-top: 0.5em;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+/* Styles */
+	.intro .description { width: 70%; margin: 1.2em auto 1.6em;}
+	.intro h1 {margin-top: 0.5em; font-size: 5.4em;}
+	.intro .description {font-size: 1.5em;}
+	.about img {margin-top: 10%;}
+	.examples li a { font-size: 1.5em;}
+	body {
+		padding-top: 40px;
+	}
+	.footer {
+		width: 820px;
+		margin: 0 auto;
+	}
+	.area {
+		@include border-radius(5px);
+	}
+	.intro {
+		background: url('../images/intro-arrows-lg.jpg') center top no-repeat;
+		background-position: 50% 68%;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

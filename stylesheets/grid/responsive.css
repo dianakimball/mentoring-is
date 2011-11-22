@@ -1,0 +1,302 @@
+/*
+-----------------------------------------------
+Responsive CSS
+-----------------------------------------------
+Site Name
+file:       css/responsive.css
+author:     Stephen Bau
+date:       21 September 2011
+----------------------------------------------- */
+/* fluid images
+----------------------------------------------- */
+/* line 14, ../../sass/grid/responsive.scss */
+img {
+  max-width: 100%;
+}
+
+/* topbar
+----------------------------------------------- */
+/* line 21, ../../sass/grid/responsive.scss */
+.topbar .container {
+  width: 960px;
+}
+
+/* line 24, ../../sass/grid/responsive.scss */
+.topbar .brand {
+  margin-left: 0;
+  padding: 8px 15px 12px;
+}
+
+/* spacing
+----------------------------------------------- */
+/* line 32, ../../sass/grid/responsive.scss */
+.main-section {
+  padding-top: 60px;
+}
+
+/* line 35, ../../sass/grid/responsive.scss */
+.section .section {
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+/* line 39, ../../sass/grid/responsive.scss */
+.display-grids .section {
+  padding-top: 0;
+}
+
+/* line 42, ../../sass/grid/responsive.scss */
+.display-grids .content {
+  padding: 15px;
+}
+
+/* line 45, ../../sass/grid/responsive.scss */
+.section .display-grids .section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* masthead
+----------------------------------------------- */
+/* line 53, ../../sass/grid/responsive.scss */
+.jumbotron {
+  min-width: 0;
+}
+
+/* line 56, ../../sass/grid/responsive.scss */
+.jumbotron .container {
+  width: auto;
+  padding: 0 30px;
+}
+
+/* quickstart
+----------------------------------------------- */
+/* line 64, ../../sass/grid/responsive.scss */
+.quickstart .section {
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: -1px;
+  margin-right: -1px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+/* line 72, ../../sass/grid/responsive.scss */
+.quickstart .subsection {
+  padding-top: 15px;
+}
+
+/* line 75, ../../sass/grid/responsive.scss */
+.quickstart .subsection:nth-child(2) {
+  margin-left: -1px;
+  margin-right: -1px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+/* line 81, ../../sass/grid/responsive.scss */
+.quickstart textarea {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* tabs
+----------------------------------------------- */
+/* line 91, ../../sass/grid/responsive.scss */
+.tabs {
+  float: none;
+}
+
+/* footer
+----------------------------------------------- */
+/* line 98, ../../sass/grid/responsive.scss */
+.footer {
+  min-width: 0;
+}
+
+/* line 101, ../../sass/grid/responsive.scss */
+.footer .content {
+  padding: 0 30px;
+}
+
+/*
+--------------------------------------------------
+Large and Medium Screens (above 750 pixels wide)
+-------------------------------------------------- */
+@media only screen and (min-width: 750px) {
+  /* line 113, ../../sass/grid/responsive.scss */
+  .masthead h1 br {
+    display: none;
+  }
+}
+/*
+--------------------------------------------------
+Medium Screens (below 960 pixels wide)
+-------------------------------------------------- */
+@media only screen and (max-width: 960px) {
+  /* line 127, ../../sass/grid/responsive.scss */
+  .masthead .lead br {
+    display: none;
+  }
+
+  /* topbar navigation
+  ----------------------------------------------- */
+  /* line 133, ../../sass/grid/responsive.scss */
+  .topbar {
+    height: auto;
+    position: static;
+  }
+
+  /* line 137, ../../sass/grid/responsive.scss */
+  .topbar .container {
+    width: auto;
+  }
+
+  /* line 140, ../../sass/grid/responsive.scss */
+  .topbar .brand {
+    float: left;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: #000;
+  }
+
+  /* line 147, ../../sass/grid/responsive.scss */
+  .topbar div > ul {
+    margin: 0;
+  }
+
+  /* line 150, ../../sass/grid/responsive.scss */
+  .topbar .nav {
+    float: none;
+  }
+
+  /* line 153, ../../sass/grid/responsive.scss */
+  .topbar .nav > li {
+    float: left;
+    width: 16.6666666%;
+    margin: 0;
+  }
+
+  /* line 161, ../../sass/grid/responsive.scss */
+  .jumbotron {
+    padding-top: 0;
+  }
+
+  /* line 164, ../../sass/grid/responsive.scss */
+  .quickstart .section {
+    padding-top: 0;
+    margin: 0;
+    border: none;
+  }
+}
+/*
+--------------------------------------------------
+Narrow Screens (300 pixels wide)
+-------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  /* body
+  ----------------------------------------------- */
+  /* line 183, ../../sass/grid/responsive.scss */
+  body {
+    padding-top: 0;
+  }
+
+  /* topbar
+  ----------------------------------------------- */
+  /* line 190, ../../sass/grid/responsive.scss */
+  .topbar .nav > li {
+    float: left;
+    width: 25%;
+    margin: 0;
+  }
+
+  /* masthead
+  ----------------------------------------------- */
+  /* line 199, ../../sass/grid/responsive.scss */
+  .jumbotron {
+    padding-top: 0;
+  }
+
+  /* line 202, ../../sass/grid/responsive.scss */
+  .jumbotron h1 {
+    font-size: 2.5em;
+  }
+
+  /* quickstart
+  ----------------------------------------------- */
+  /* line 210, ../../sass/grid/responsive.scss */
+  .quickstart h6,
+  .quickstart p {
+    text-align: left;
+  }
+
+  /* line 213, ../../sass/grid/responsive.scss */
+  .quickstart .content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* line 217, ../../sass/grid/responsive.scss */
+  .quickstart .section {
+    padding-bottom: 15px;
+    border: none;
+  }
+
+  /* headings
+  ----------------------------------------------- */
+  /* line 225, ../../sass/grid/responsive.scss */
+  h1 small {
+    display: block;
+    margin-top: .3em;
+    line-height: 1.25em;
+  }
+
+  /* tabs
+  ----------------------------------------------- */
+  /* line 234, ../../sass/grid/responsive.scss */
+  .tabs {
+    float: none;
+  }
+
+  /* pagination
+  ----------------------------------------------- */
+  /* line 241, ../../sass/grid/responsive.scss */
+  .pagination {
+    height: auto;
+  }
+
+  /* line 244, ../../sass/grid/responsive.scss */
+  .pagination ul {
+    float: none;
+  }
+
+  /* clearing
+  ----------------------------------------------- */
+  /* line 252, ../../sass/grid/responsive.scss */
+  .tabs,
+  .pagination ul {
+    zoom: 1;
+    display: block;
+  }
+
+  /* line 257, ../../sass/grid/responsive.scss */
+  .tabs:after,
+  .pagination ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+  /* footer
+  ----------------------------------------------- */
+  /* line 268, ../../sass/grid/responsive.scss */
+  .footer .pull-right {
+    float: none;
+    text-align: right;
+  }
+}

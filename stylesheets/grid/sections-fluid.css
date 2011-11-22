@@ -1,0 +1,94 @@
+/*
+-----------------------------------------------
+Sections Grid CSS - Fluid
+-----------------------------------------------
+Site Name
+file:		css/text.css
+author:		Stephen Bau
+date:		2 July 2010
+-----------------------------------------------
+A grid system by Craig Zheng designed
+for publicculture.org and symphony-cms.com.
+Adapted by Stephen Bau.
+----------------------------------------------- */
+/* line 15, ../../sass/grid/sections-fluid.scss */
+.area {
+  width: auto;
+}
+
+/* line 18, ../../sass/grid/sections-fluid.scss */
+.section {
+  overflow: hidden;
+  clear: both;
+}
+
+/* line 22, ../../sass/grid/sections-fluid.scss */
+.subsection {
+  float: left;
+  width: 25%;
+}
+
+/* 3-column grid */
+/* line 29, ../../sass/grid/sections-fluid.scss */
+.thirds .subsection,
+.thirds .simple {
+  width: 33.3333%;
+}
+
+/* line 32, ../../sass/grid/sections-fluid.scss */
+.thirds .fragment {
+  width: 16.6666%;
+}
+
+/* line 35, ../../sass/grid/sections-fluid.scss */
+.thirds .compound {
+  width: 66.6666%;
+}
+
+/* 4-column grid (default) */
+/* line 40, ../../sass/grid/sections-fluid.scss */
+.fragment {
+  width: 12.5%;
+}
+
+/* line 43, ../../sass/grid/sections-fluid.scss */
+.simple {
+  width: 25%;
+}
+
+/* line 46, ../../sass/grid/sections-fluid.scss */
+.compound {
+  width: 50%;
+}
+
+/* line 49, ../../sass/grid/sections-fluid.scss */
+.complex {
+  width: 75%;
+}
+
+/* 5-column grid */
+/* line 55, ../../sass/grid/sections-fluid.scss */
+.fifths .subsection,
+.fifths .simple {
+  width: 20%;
+}
+
+/* line 58, ../../sass/grid/sections-fluid.scss */
+.fifths .fragment {
+  width: 10%;
+}
+
+/* line 61, ../../sass/grid/sections-fluid.scss */
+.fifths .compound {
+  width: 40%;
+}
+
+/* line 64, ../../sass/grid/sections-fluid.scss */
+.fifths .complex {
+  width: 60%;
+}
+
+/* line 67, ../../sass/grid/sections-fluid.scss */
+.fifths .compound-complex {
+  width: 80%;
+}
